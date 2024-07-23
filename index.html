@@ -1,0 +1,86 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zikry&Nabila</title>
+    <link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="title">
+        <h2><img src="ringhalf.png" alt="ringhalf">Raikan Cinta Zikry & Nabila</h2>
+    </div>
+
+	<div class="mukadepan">
+        <img src="mukadepan.png" alt="mukadepan">
+    </div>
+
+    <div class="mukabelakang">
+        <img src="mukabelakang.png" alt="mukabelakang">
+    </div>
+
+    <div class="titlejalan">
+        <h2><img src="calen.png" alt="ringhalf"> Perjalanan Majlis</h2>
+    </div>
+
+    <div class="pictperjalanan">
+        <img src="majlisjalan.png" alt="majlisjalan">
+    </div>
+
+    <div class="titlelokasi">
+        <h2><img src="lokasi.png" alt="ringhalf"> Lokasi</h2>
+    </div>
+
+    <div class="google-map">
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15938.56143950935!2d101.7526136!3d2.9193584!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdc9348f8cd00d%3A0xcd28680c2bcb119d!2z8J2RqvCdkajwnZG38J2RufCdkazwnZGr8J2RtvCdkarwnZGoIPCdkb7wnZGv8J2RsPCdkbvwnZGsIPCdkbfwnZGo8J2Rs_CdkajwnZGq8J2RrA!5e0!3m2!1sms!2smy!4v1721621010796!5m2!1sms!2smy" width="90%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class = "menghitung">
+        <p>Menghitung Hari</p>
+    </div>
+
+    <div class="countdown">
+        <p id="demo"></p>
+
+        <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Sep 08, 2024 11:00:00").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+      // Get today's date and time
+      var now = new Date().getTime();
+        
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+        
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+      // Output the result in an element with id="demo"
+      document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
+        
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+    </script>
+    </div>
+
+    <div class="void"></div>
+
+    
+
+   
+</body>
+</html>

@@ -1,0 +1,145 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Dancing Script';
+}
+
+.title{
+    font-size: 4vw;
+}
+
+.title h2 img {
+    width: 8vw;
+    height: auto;
+}
+
+.menghitung {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+}
+.menghitung p {
+    font-family: "Lucida Handwriting", "Brush Script MT", Cursive;
+    font-size: 5vw;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.countdown {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+}
+.countdown p {
+    font-family: "Lucida Handwriting", "Brush Script MT", Cursive;
+    font-size: 7vw;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 10px;
+
+}
+
+.mukadepan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.mukadepan img {
+  max-width: 90%;
+  height: auto;
+}
+
+.mukabelakang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.mukabelakang img {
+  max-width: 90%;
+  height: auto;
+}
+
+.titlejalan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Dancing Script';
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.titlejalan{
+    font-size: 4vw;
+}
+
+.titlejalan h2 img {
+    width: 5vw;
+    height: auto;
+}
+
+.pictperjalanan {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: auto;
+}
+
+.pictperjalanan img{
+    width:85%;
+}
+
+.titlelokasi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Dancing Script';
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 4vw;
+}
+
+.titlelokasi h2 img {
+    width: 5vw;
+    height: auto;
+}
+
+.google-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.google-map #map {
+}
+
+.void {
+    width: 100%;
+    height: 40px;
+}
